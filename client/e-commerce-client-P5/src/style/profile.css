@@ -1,0 +1,26 @@
+.container {
+  justify-content: center;
+  margin-top: 80px;
+}
+.grid {
+  background-color: #0c0b0b;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.user-image-container {
+  text-align: center;
+}
+.user-image {
+  width: 150px;
+  border-radius: 50%;
+}
+.info-personal-container {
+  margin: 30px 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

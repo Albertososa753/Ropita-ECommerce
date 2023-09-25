@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  margin-top: 5rem;
+
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+.images {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.images img {
+  height: 20rem;
+  width: 20rem;
+  margin: 20px;
+  justify-content: space-between;
+  object-fit: cover;
+}
+
+.containerDescrip {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.containerDescrip h3 {
+  font-size: 30px;
+}
+
+.containerDescrip p {
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  width: 760px;
+}
+#precio {
+  display: flex;
+  font-size: 25px;
+  color: #88ff00;
+  flex-direction: column;
+}

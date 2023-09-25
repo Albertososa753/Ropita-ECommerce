@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #0c0b0b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar__brand h2 {
+  margin: 0;
+}
+.turopita {
+  text-decoration: none;
+  color: #ffff;
+}
+.navbar__icons ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__icons li {
+  margin-right: 10px;
+}
+.button-register-navbar {
+  color: #ffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button-login-navbar {
+  color: #ffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar_button {
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  border: none;
+  background-color: #0c0b0b;
+  cursor: pointer;
+}
+.cart-item-count {
+  display: inline-block;
+  background-color: rgb(56, 231, 86);
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 18px;
+  margin-left: 4px;
+}

@@ -1,0 +1,39 @@
+section {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-register {
+  height: 50%;
+  justify-content: center;
+}
+.title-register {
+  font-size: 28px;
+}
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-register {
+  margin-top: 20px;
+  padding: 0 0 0 10px;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+.button-register {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #0c0b0b;
+}
